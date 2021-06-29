@@ -33,7 +33,8 @@ class BBCanvas extends React.Component {
 		let x = 100;
 		let y = 100;
 		p.setup = function () {
-		p.createCanvas(700, 410);
+		p.createCanvas(800, 480);
+	    p.background(184, 184, 161);
 		};
 
 		p.draw = function () {
