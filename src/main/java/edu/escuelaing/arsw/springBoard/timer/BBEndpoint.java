@@ -12,7 +12,11 @@ import javax.websocket.OnOpen;
 import javax.websocket.Session;
 import javax.websocket.server.ServerEndpoint;
 import org.springframework.stereotype.Component;
-
+/**
+ * 
+ * @author Daniel Santiago Ducuara Ardila
+ * @author Daniel Benavides
+ */
 @Component
 @ServerEndpoint("/bbService")
 public class BBEndpoint {
